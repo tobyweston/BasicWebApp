@@ -14,8 +14,7 @@ public abstract class HtmlPage {
         writeFooterTo(writer);
     }
 
-    private void writeHeaderTo(Pri
-								   ntWriter writer) {
+    private void writeHeaderTo(PrintWriter writer) {
         writer.println("<html>");
         writer.println("<head></head>");
         writer.println("<body>");
